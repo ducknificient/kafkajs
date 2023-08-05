@@ -112,6 +112,7 @@ export interface Message {
   partition?: number
   headers?: IHeaders
   timestamp?: string
+  offset: string
 }
 
 export interface PartitionerArgs {
